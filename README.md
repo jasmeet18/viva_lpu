@@ -213,3 +213,61 @@ npm start
 ---
 
 
+Perfect! 👍 Here’s a clean step-by-step version of what you wrote for pushing code into GitHub:
+
+---
+
+# 🚀 How to Push Your Code to GitHub
+
+✅ **Be in the project’s root directory (`viva_lpu`)**
+
+### 📝 Steps:
+
+1️⃣ **Initialize a Git repository**
+
+```bash
+git init
+```
+
+2️⃣ **Add all files to staging area**
+
+```bash
+git add .
+```
+
+3️⃣ **Check the status**
+
+```bash
+git status
+```
+
+4️⃣ **Commit the changes with a message**
+
+```bash
+git commit -m "Initial commit"
+```
+
+5️⃣ **Rename default branch to `main`**
+
+```bash
+git branch -m main
+```
+
+6️⃣ **Add your GitHub remote repository URL**
+
+```bash
+git remote add origin "https://github.com/<your-username>/<your-repo>.git"
+```
+
+7️⃣ **Push the code to GitHub**
+
+```bash
+git push -u origin main
+```
+
+---
+
+✅ Now your project is live on GitHub! 🎉
+
+
+
