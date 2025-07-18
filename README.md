@@ -271,3 +271,46 @@ git push -u origin main
 
 
 
+Here’s a **proofread and slightly polished version** of your text:
+
+---
+
+### **Hosting Instructions**
+
+#### **Backend: render.com**
+
+1. Use a cloud database (MongoDB Atlas).change network access setting to allow from anywhere
+2. Create a separate Git repository for your backend and push the backend code to that repo.
+3. Open [render.com](https://render.com).
+4. Click the **“+”** icon or **“New”** to create a new service.
+5. Import the backend repository from GitHub.
+6. Set the **Build Command**:
+
+   ```
+   npm install
+   ```
+7. Set the **Start Command**:
+
+   ```
+   node server.js
+   ```
+8. Add your `.env` variables in Render settings and click **Deploy**.
+9. Once deployed, you will get your **backend hosting link**.
+
+---
+
+#### **Frontend: vercel.com**
+
+1. Use the **backend hosting link** in your frontend code (API calls).
+2. Push your frontend code to a separate Git repository.
+3. Import this frontend repository into [vercel.com](https://vercel.com).
+4. Add your `.env` variables in Vercel settings.
+5. Click **Deploy**.
+
+---
+
+✅ **Now your full-stack application is live!**
+
+
+
+
